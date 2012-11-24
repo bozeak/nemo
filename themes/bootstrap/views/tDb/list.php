@@ -1,24 +1,14 @@
 <?php
 /* @var $this TDbController */
 /* @var $dataProvider CActiveDataProvider */
-
+$br_sub = Subdiv::model()->find('id=:subdiv', array(':subdiv' => $_GET['subdiv']));
 $this->breadcrumbs = array(
-    'Registrul',
+    $br_sub->name,
 );
 ?>
-<!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
-
-
-
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-    <?php
-    echo $this->renderPartial('_usermenu');
-    ?>
-
-    </div>
-
+<?php
+$this->renderPartial('_usermenu');
+?>
 <div align="center">
     <table align="center" id="regtable" class="table">
         <thead>
@@ -38,7 +28,6 @@ $this->breadcrumbs = array(
             <th width="40px">Dosar</th>
             <th width="30px" style="border-right: 0px;"></th>
             <?php } ?>
-
 
         </tr>
         </thead>
@@ -61,19 +50,18 @@ $this->breadcrumbs = array(
             <?php } ?>
             <td><?php
                 if (!empty($m->responsabil2))
-                    echo $m->responsabil2->grad0->md . " " . $m->responsabil2->fullname . "<br />" . $m->responsabil2->contacts;
-                ?></td>
+                    echo $m->responsabil2->grad0->md . " " . $m->responsabil2->fullname . "<br />" . $m->responsabil2->contacts; ?></td>
 
             <?php if (!Yii::app()->user->isGuest) { ?>
             <td>
                 <?php
                 if (!empty($m->nr_respons))
-                    echo $m->nr_respons . " din " . Yii::app()->dateFormatter->format(Yii::app()->locale->getDateFormat('long'), $m->date_respons) . "<br />" . $m->respons_type2->name;
+                    echo $m->nr_respons . " din " .
+                        Yii::app()->dateFormatter->format(Yii::app()->locale->getDateFormat('long'), $m->date_respons) . "<br />" . $m->respons_type2->name;
                 ?>
             </td>
-            <td><?php
-                if (!empty($m->dossier))
-                    echo $m->dossier;
+            <td><?php if (!empty($m->dossier))
+                echo $m->dossier;
                 ?></td>
 
 
@@ -84,6 +72,7 @@ $this->breadcrumbs = array(
                     'submit' => $this->createUrl('delete', array('id' => $m->id)),
                     'confirm' => "Sînteți siguri că doriți să ștergeți înregistrarea " . $m->id . " din registru?",
                     'params' => array('YII_CSRF_TOKEN' => Yii::app()->request->csrfToken)))
+
                     . "</td>";
             elseif (Yii::app()->user->checkAccess('3') && $m->author == Yii::app()->user->id)
                 echo "<td>" . CHtml::link(CHtml::encode('Modifică'), array('update', 'id' => $m->id)) . "</td>"; else
@@ -107,5 +96,4 @@ $this->breadcrumbs = array(
         ));
         ?>
     </div>
-
 </div>

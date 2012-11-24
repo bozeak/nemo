@@ -14,6 +14,16 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://D:/php/PEAR/go-pear.phar" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://D:/php/PEAR/go-pear.phar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
 
