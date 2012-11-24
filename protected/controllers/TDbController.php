@@ -142,7 +142,7 @@ class TDbController extends Controller
             $pages->applyLimit($criteria);
             $models=TDb::model()->findAll($criteria);
 
-            $this->render('index', array(
+            $this->render('_table', array(
                 'models' => $models,
                 'pages' => $pages
             ));
@@ -207,7 +207,7 @@ class TDbController extends Controller
             $pages->applyLimit($criteria);
             $models=TDb::model()->findAll($criteria);
 
-            $this->render('list', array(
+            $this->render('_table', array(
                 'models' => $models,
                 'pages' => $pages
             ));

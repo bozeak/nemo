@@ -8,7 +8,7 @@ return array(
     'name' => 'Registrul de evidență a documentelor v2',
     'sourceLanguage' => 'en',
     'language' => 'ro',
-    'theme'=>'bootstrap',
+    'theme' => 'bootstrap',
     'defaultController' => 'TDb',
     // preloading 'log' component
     'preload' => array('log'),
@@ -31,9 +31,11 @@ return array(
     // application components
     'components' => array(
         'user' => array(
+            'returnUrl' => 'tDb/create',
             // enable cookie-based authentication
             'allowAutoLogin' => true,
             'class' => 'WebUser',
+
         ),
         'authManager' => array(
             // Будем использовать свой менеджер авторизации
@@ -43,16 +45,16 @@ return array(
         ),
         // uncomment the following to enable URLs in path-format
 //
-//		'urlManager'=>array(
-//			'urlFormat'=>'path',
-//                        'showScriptName'=>false,
-//                            'rules'=>array(
-//				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-//				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-//				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-//                                '<action>'=>'site/<action>',
-//			),
-//		),
+        'urlManager' => array(
+            'urlFormat' => 'path',
+            'showScriptName' => false,
+            'rules' => array(
+                '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                '<action>' => 'site/<action>',
+            ),
+        ),
 
         /*
           'db'=>array(
@@ -68,9 +70,9 @@ return array(
             'password' => 'bozeakico',
             'charset' => 'utf8',
             // включаем профайлер
-        'enableProfiling'=>true,
-        // показываем значения параметров
-        'enableParamLogging' => true,
+            'enableProfiling' => true,
+            // показываем значения параметров
+            'enableParamLogging' => true,
         ),
         'errorHandler' => array(
             // use 'site/error' action to display errors
@@ -89,12 +91,12 @@ return array(
                     'class' => 'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
                     //'ipFilters' => array('192.168.1.*'),
                 ),
-            // uncomment the following to show log messages on web pages
-            /*
-              array(
-              'class'=>'CWebLogRoute',
-              ),
-             */
+                // uncomment the following to show log messages on web pages
+                /*
+                  array(
+                  'class'=>'CWebLogRoute',
+                  ),
+                 */
             ),
         ),
     ),
