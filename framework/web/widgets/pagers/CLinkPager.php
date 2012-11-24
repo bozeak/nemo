@@ -23,8 +23,8 @@ class CLinkPager extends CBasePager
 	const CSS_PREVIOUS_PAGE='previous';
 	const CSS_NEXT_PAGE='next';
 	const CSS_INTERNAL_PAGE='page';
-	const CSS_HIDDEN_PAGE='hidden';
-	const CSS_SELECTED_PAGE='selected';
+	const CSS_HIDDEN_PAGE='disabled';
+	const CSS_SELECTED_PAGE='active';
 
 	/**
 	 * @var string the CSS class for the first page button. Defaults to 'first'.

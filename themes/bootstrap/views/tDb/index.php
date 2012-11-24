@@ -6,13 +6,19 @@ $this->breadcrumbs = array(
     'Registrul',
 );
 ?>
-<?php
-//$this->renderPartial('_usermenu');
-?>
+
+<a href="#myModal" role="button" data-toggle="modal">Launch demo modal</a>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <?php
+    $this->renderPartial('_usermenu');
+    ?>
+</div>
+
 <div align="center">
     <table align="center" id="regtable" class="table">
         <thead>
-	<tr>
+        <tr>
             <th width="30px">Nr. d/o</th>
             <th width="120px">Nr. de înregistrare<br/>
                 Data înregistrării
@@ -31,7 +37,7 @@ $this->breadcrumbs = array(
 
 
         </tr>
-	</thead>
+        </thead>
 
         <?php foreach ($models as $m) { ?>
         <tr id="regtablerow">
@@ -76,8 +82,7 @@ $this->breadcrumbs = array(
                     'params' => array('YII_CSRF_TOKEN' => Yii::app()->request->csrfToken)))
                     . "</td>";
             elseif (Yii::app()->user->checkAccess('3') && $m->author == Yii::app()->user->id)
-                echo "<td>" . CHtml::link(CHtml::encode('Modifică'), array('update', 'id' => $m->id)) . "</td>";
-            else
+                echo "<td>" . CHtml::link(CHtml::encode('Modifică'), array('update', 'id' => $m->id)) . "</td>"; else
                 echo "<td></td>"
             ?>
             <?php } ?>
@@ -85,10 +90,18 @@ $this->breadcrumbs = array(
         <?php } ?>
 
     </table>
-    <?php
-    $this->widget('CLinkPager', array(
-        'pages' => $pages,
-    ));
-    ?>
+    <hr style="top: 20px"/>
+
+    <div class="pagination pagination-centered pagination-small">
+        <?php
+        $this->widget('CLinkPager', array(
+            'pages' => $pages,
+            'header' => false,
+            'htmlOptions' => array(
+                'class' => '',
+            ),
+        ));
+        ?>
+    </div>
 
 </div>

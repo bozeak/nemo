@@ -9,7 +9,7 @@ return array(
     'sourceLanguage' => 'en',
     'language' => 'ro',
     'theme'=>'bootstrap',
-    //'defaultController' => 'TDb',
+    'defaultController' => 'TDb',
     // preloading 'log' component
     'preload' => array('log'),
     // autoloading model and component classes
