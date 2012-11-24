@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b91889-020a-4e3e-82af-f632bab0a7a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bootstrap/views/tDb/_usermenu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/web/widgets/pagers/CLinkPager.php" afterPath="$PROJECT_DIR$/framework/web/widgets/pagers/CLinkPager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php" afterPath="$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php" />
     </list>
     <ignored path="project1.iws" />
@@ -38,7 +35,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-10.461538">
+            <state line="24" column="6" selection-start="839" selection-end="839" vertical-scroll-proportion="-15.692307">
               <folding>
                 <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#1;n#!!top" expanded="true" />
@@ -47,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_usermenu.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_usermenu.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/tDb/_usermenu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -94,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="0" selection-start="4638" selection-end="4655" vertical-scroll-proportion="-19.615385">
+            <state line="74" column="69" selection-start="3421" selection-end="3424" vertical-scroll-proportion="2.2424242">
               <folding />
             </state>
           </provider>
@@ -126,8 +123,9 @@
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/login.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/framework/web/widgets/pagers/CLinkPager.php" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/tDb/_usermenu.php" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -298,6 +296,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -392,7 +444,11 @@
       <created>1353757469328</created>
       <updated>1353757469328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modified CLinkPager output">
+      <created>1353761111156</created>
+      <updated>1353761111156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -476,7 +532,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Massive add to repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified CLinkPager output" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -492,6 +548,7 @@
     <MESSAGE value="Try to make login page layout" />
     <MESSAGE value="Finished layout for login page" />
     <MESSAGE value="Massive add to repository" />
+    <MESSAGE value="Modified CLinkPager output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,13 +578,6 @@
     <entry file="file://$PROJECT_DIR$/themes/foundation/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="10" selection-start="1513" selection-end="2299" vertical-scroll-proportion="0.030303031">
           <folding />
         </state>
       </provider>
@@ -576,20 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="4638" selection-end="4655" vertical-scroll-proportion="-19.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/web/widgets/pagers/CLinkPager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="35" selection-start="668" selection-end="668" vertical-scroll-proportion="-7.3846154">
@@ -597,9 +633,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/tDb/_usermenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/tDb/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-10.461538">
+        <state line="24" column="6" selection-start="839" selection-end="839" vertical-scroll-proportion="-15.692307">
           <folding>
             <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#1;n#!!top" expanded="true" />
@@ -607,9 +657,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/tDb/_usermenu.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="10" selection-start="1513" selection-end="2299" vertical-scroll-proportion="0.9371534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="69" selection-start="3421" selection-end="3424" vertical-scroll-proportion="2.2424242">
           <folding />
         </state>
       </provider>
