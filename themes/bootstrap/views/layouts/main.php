@@ -66,6 +66,15 @@
     </div>
 </div>
 
+<?php if (isset($this->breadcrumbs)): ?>
+    <?php $this->widget('zii.widgets.CBreadcrumbs', array(
+    'links' => $this->breadcrumbs,
+    'htmlOptions'=>array(
+        'class'=>'breadcrumb',
+    ),
+)); ?><!-- breadcrumbs -->
+    <?php endif?>
+
 <div class="container">
 
     <?php echo $content; ?>
