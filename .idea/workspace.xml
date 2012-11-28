@@ -14,7 +14,6 @@
       <change type="DELETED" beforePath="D:\root\project1\.idea\scopes\scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\root\project1\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\root\project1\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -531,7 +530,11 @@
       <created>1354135724625</created>
       <updated>1354135724625</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Unsuccesful try to make redirect">
+      <created>1354135994421</created>
+      <updated>1354135994421</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
